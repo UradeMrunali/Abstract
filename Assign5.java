@@ -1,4 +1,3 @@
-
 abstract class Shape{
     abstract void RectangleArea(float length , float breadth);
 
@@ -7,15 +6,9 @@ abstract class Shape{
     abstract void CircleArea(float side);
 
 }
-
-
-
 class Area extends Shape{
 
     double Area=0;
-
-    
-
     @Override
 
     void RectangleArea(float length , float breadth){
@@ -25,9 +18,6 @@ class Area extends Shape{
         System.out.println("Area of rectangle is: "+Area);
 
     }
-
-    
-
     @Override
 
     void SquareArea(float Side){
@@ -37,9 +27,6 @@ class Area extends Shape{
         System.out.println("Area of Square is: "+Area);
 
     }
-
-    
-
     @Override
 
     void CircleArea(float radius){
@@ -51,8 +38,6 @@ class Area extends Shape{
     }
 
 }
-
-
 public class Assign5 {
 	public static void main(String[] args) {
 
