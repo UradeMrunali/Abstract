@@ -1,8 +1,5 @@
 
 abstract class Shape{
-
-
-
     abstract void RectangleArea(float length , float breadth);
 
     abstract void SquareArea(float radius);
