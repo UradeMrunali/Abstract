@@ -13,7 +13,6 @@ abstract class Test
 }
  class SubClass extends Test
  {
-
 	@Override
 	void a_method() {
 		System.out.println("This is abstract method");
